@@ -64,7 +64,7 @@ p.lead {
   text-align: center;
   font-size: 1.5rem;
   line-height: 3.5rem;
-  margin-right: 1rem;
+  margin-right: 1.0rem;
 }
 
 .social-icons a:last-child {
@@ -73,6 +73,11 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #BD5D38;
+  height: 4.0rem;
+  width: 4.0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 4.2rem;
 }
 
 .dev-icons {
@@ -189,4 +194,16 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.collaboration_list_column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.collaboration_list_row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
